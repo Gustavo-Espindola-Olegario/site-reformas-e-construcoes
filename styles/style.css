@@ -56,6 +56,7 @@ a:hover {
     background-color: white;
     color: black;
 }
+
 #section-obra {
 }
 
@@ -63,17 +64,20 @@ h1 {
 text-align: center;
 font-size: 6rem;
 }
+
 .obras {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
 }
-.img-obra{
+.obrafotos{
     margin: 15px 15px;
     transition-duration: 0.8s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.363);
 }
-.img-obra:hover {
+
+.obrafotos:hover {
     transform: scale(1.1);
 }
 
